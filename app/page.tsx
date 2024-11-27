@@ -1,5 +1,17 @@
+import Categories from "./ui/components/categories";
+import FeaturedBlogs from "./ui/components/featuredBlogs";
+import Hero from "./ui/components/hero";
+
 const Home = () => {
-  return <h1 className="font-heading">This is homepage</h1>;
+  return (
+    <div>
+      <Hero />
+
+      <Categories />
+
+      <FeaturedBlogs />
+    </div>
+  );
 };
 
 export default Home;
