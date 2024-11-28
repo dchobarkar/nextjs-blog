@@ -10,12 +10,12 @@
   --bg-color: #ffffff; /* Default background color */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-color: #0a0a0a; /* Dark mode background */
-    --text-color: #ededed; /* Dark mode text color */
-  }
-}
+/* @media (prefers-color-scheme: dark) { */
+/* :root { */
+/* --bg-color: #0a0a0a; Dark mode background */
+/* --text-color: #ededed; Dark mode text color */
+/* } */
+/* } */
 
 body {
   color: var(--text-color);
