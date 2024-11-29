@@ -1,6 +1,6 @@
+import Hero from "./ui/components/hero";
 import Categories from "./ui/components/categories";
 import FeaturedBlogs from "./ui/components/featuredBlogs";
-import Hero from "./ui/components/hero";
 
 const Home = () => {
   return (

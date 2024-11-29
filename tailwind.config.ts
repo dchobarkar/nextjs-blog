@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   content: [
@@ -18,8 +17,8 @@ export default {
         },
       },
       fontFamily: {
-        heading: ["var(--font-montserrat)", ...fontFamily.sans], // For headings
-        body: ["var(--font-roboto)", ...fontFamily.sans], // For body text
+        heading: ["var(--font-montserrat)"], // For headings
+        sans: ["var(--font-roboto)"],
       },
       fontSize: {
         h1: ["36px", { lineHeight: "1.2", fontWeight: "700" }], // Bold
