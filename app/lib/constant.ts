@@ -24,4 +24,35 @@ const categoryCards = [
   },
 ];
 
-export { navLinks, categoryCards };
+const featuredCards = [
+  {
+    title: "Blog 1",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/4",
+  },
+  {
+    title: "Blog 2",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/5",
+  },
+  {
+    title: "Blog 3",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/6",
+  },
+  {
+    title: "Blog 4",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/7",
+  },
+];
+
+export { navLinks, categoryCards, featuredCards };

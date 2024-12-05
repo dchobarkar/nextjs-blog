@@ -13,7 +13,7 @@ const CategoryCard = ({
   href: string;
 }) => {
   return (
-    <div className="max-w-sm bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
+    <div className="max-w-sm m-auto bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
       <h3 className="text-lg font-bold text-gray-800 p-4 border-b border-gray-200">
         {title}
       </h3>
