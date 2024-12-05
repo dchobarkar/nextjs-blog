@@ -1,3 +1,4 @@
+const totalPages = 16;
 const navLinks = [{ label: "Categories", href: "/blog" }];
 
 const categoryCards = [
@@ -55,4 +56,21 @@ const featuredCards = [
   },
 ];
 
-export { navLinks, categoryCards, featuredCards };
+const resultBlogs = [
+  {
+    title: "Blog Result 1",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/8",
+  },
+  {
+    title: "Blog Result 2",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/9",
+  },
+];
+
+export { totalPages, navLinks, categoryCards, featuredCards, resultBlogs };

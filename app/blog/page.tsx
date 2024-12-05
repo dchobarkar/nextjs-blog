@@ -1,6 +1,7 @@
 import BlogCards from "../ui/components/blogCards";
 import Pagination from "../ui/components/pagination";
 import SearchBar from "../ui/components/searchBar";
+import { totalPages } from "../lib/constant";
 
 const Page = () => {
   return (
@@ -9,7 +10,7 @@ const Page = () => {
 
       <BlogCards />
 
-      <Pagination />
+      <Pagination totalPages={totalPages} />
     </div>
   );
 };
