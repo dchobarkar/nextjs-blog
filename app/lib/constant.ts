@@ -73,4 +73,46 @@ const resultBlogs = [
   },
 ];
 
-export { totalPages, navLinks, categoryCards, featuredCards, resultBlogs };
+const blogMeta = {
+  title: "Blog 1",
+  author: "Darshan Chobarkar",
+  date: "05/12/2024",
+  category: "Technical",
+};
+
+const blogContent = {};
+
+const relatedBlogs = [
+  {
+    title: "Blog 11",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/11",
+  },
+  {
+    title: "Blog 12",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/12",
+  },
+  {
+    title: "Blog 13",
+    image: "/category-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, ea vix alii epicurei, an pro mutat alienum similique. Blandit mandamus pro at, usu vide splendide sententiae et, ut nam consul lobortis. Vim ne falli prompta laoreet, vix graeco minimum accommodare in. Omnium detraxit intellegam ius te, euismod invidunt cum ne. Sea ancillae pertinax ut,",
+    href: "/blogs/3",
+  },
+];
+
+export {
+  totalPages,
+  navLinks,
+  categoryCards,
+  featuredCards,
+  resultBlogs,
+  blogMeta,
+  blogContent,
+  relatedBlogs,
+};
