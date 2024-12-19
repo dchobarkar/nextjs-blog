@@ -1,5 +1,5 @@
 const totalPages = 16;
-const navLinks = [{ label: "Categories", href: "/blog" }];
+const navLinks = [{ label: "Categories", href: "/blogs" }];
 
 const categoryCards = [
   {
