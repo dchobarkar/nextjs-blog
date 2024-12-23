@@ -73,15 +73,6 @@ const resultBlogs = [
   },
 ];
 
-const blogMeta = {
-  title: "Blog 1",
-  author: "Darshan Chobarkar",
-  date: "05/12/2024",
-  category: "Technical",
-};
-
-const blogContent = {};
-
 const relatedBlogs = [
   {
     title: "Blog 11",
@@ -112,7 +103,5 @@ export {
   categoryCards,
   featuredCards,
   resultBlogs,
-  blogMeta,
-  blogContent,
   relatedBlogs,
 };
