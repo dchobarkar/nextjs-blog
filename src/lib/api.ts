@@ -1,7 +1,8 @@
-import { Post } from "@/interfaces/post";
 import fs from "fs";
 import matter from "gray-matter";
 import { join } from "path";
+
+import { Post } from "@/interfaces/post";
 
 const postsDirectory = join(process.cwd(), "_posts");
 
@@ -20,6 +21,7 @@ export function getPostBySlug(slug: string) {
 
 export function getAllPosts(): Post[] {
   const slugs = getPostSlugs();
+
   const posts = slugs
     .map((slug) => getPostBySlug(slug))
     // sort posts by date in descending order
