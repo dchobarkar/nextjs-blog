@@ -2,8 +2,18 @@ import RelatedBlogs from "@/app/ui/components/relatedBlogs";
 
 import { notFound } from "next/navigation";
 
+export async function generateStaticParams() {
+  return [
+    { slug: "first-blog" },
+    { slug: "second-blog" },
+    { slug: "third-blog" },
+    { slug: "fourth-blog" },
+  ];
+}
+
 const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const slug = (await params).slug;
+
   const { default: Post } = await import(`@/app/posts/${slug}.mdx`);
 
   if (!Post) return notFound();
